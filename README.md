@@ -1,4 +1,4 @@
-# [My Favorite Shoes](http://localhost:3000/)
+# [My Favorite Shoes](https://lucky-one-alamhosen.netlify.app/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
