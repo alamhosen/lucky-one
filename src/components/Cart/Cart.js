@@ -7,8 +7,8 @@ const Cart = ({cart, choose1ForMe, chooseAgain}) => {
             {
             cart.map(item =><p key={item.id}>{item.name}</p>)
             }
-                   <button onClick={() => choose1ForMe(cart)}>Choose 1 for Me</button>
-                   <button onClick={() => {chooseAgain(cart)}}>Choose Again</button>
+            <button onClick={() => choose1ForMe(cart)}>Choose 1 for Me</button>
+            <button onClick={() => {chooseAgain(cart)}}>Choose Again</button>
 
         </div>
     );

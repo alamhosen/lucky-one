@@ -4,13 +4,6 @@
     border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative; 
-};
-
-.imgmy{
-    width: 286px;
-    height: 286px;
-    margin: 7px;
-    border-radius: 8px;
 }
 
 .product-info{
@@ -24,7 +17,7 @@
 
 .btn-cart{
     width: 100%;
-    background: #f7cf0a;
+    background: #FFD814;
     border: none;
     border-radius: 0px 0px 8px 8px;
     position: absolute;

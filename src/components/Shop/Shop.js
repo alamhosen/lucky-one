@@ -6,14 +6,15 @@ import './Shop.css';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([])
+
     useEffect(() => {
         fetch('products.json')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [])
 
+    // add to cart product
     const handleAddToCart = (selectedProduct) => {
-        // console.log(product);
         let newCart = [];
         const exits = cart.find(product => product.id === selectedProduct.id);
         if(!exits){
@@ -27,12 +28,13 @@ const Shop = () => {
         }
         setCart(newCart);
     }
+    // choose one for me
     const choose1ForMe = (cart) => {
         const luckyOne = cart[Math.floor(Math.random() * cart.length)];
         setCart([luckyOne]);
 
     }
-
+    // clear cart
     const chooseAgain = (cart) => {
         setCart([]);
     };
