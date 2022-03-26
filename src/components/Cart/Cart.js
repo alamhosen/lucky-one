@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cart.css'
 const Cart = ({cart, choose1ForMe, chooseAgain}) => {
-    console.log(cart);
+    // console.log(cart);
     // let quantity = 0;
     // const name = 0;
     // for (const product of cart){
@@ -9,8 +9,6 @@ const Cart = ({cart, choose1ForMe, chooseAgain}) => {
     //  const name = product.quantity;
     //     return name;
     // }
-
-  
 
     return (
         <div className='cart'>

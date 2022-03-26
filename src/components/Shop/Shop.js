@@ -6,25 +6,31 @@ import './Shop.css';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([])
-
-    useEffect( ()=>{
+    useEffect(() => {
         fetch('products.json')
-        .then(res =>res.json())
-        .then(data =>setProducts(data));
+            .then(res => res.json())
+            .then(data => setProducts(data));
     }, [])
 
-    const handleAddToCart = (product) => {
+    const handleAddToCart = (selectedProduct) => {
         // console.log(product);
-        const newCart = [...cart, product];
+        let newCart = [];
+        const exits = cart.find(product => product.id === selectedProduct.id);
+        if(!exits){
+            selectedProduct.quantity = 1;
+            newCart = [...cart, selectedProduct];
+        }
+        else{
+            const rest = cart.filter(product => product.id !== selectedProduct.id);   
+            exits.quantity = exits.quantity + 1;
+            newCart = [...rest, exits];
+        }
         setCart(newCart);
     }
-    const choose1ForMe = (cart) =>{
-        // console.log(cart.length);
-        const varname = cart[Math.floor(Math.random()*cart.length)];
-        // const luckyone = varname.name;
-        setCart(varname);
-        // console.log(luckyone);
-     
+    const choose1ForMe = (cart) => {
+        const luckyOne = cart[Math.floor(Math.random() * cart.length)];
+        setCart([luckyOne]);
+
     }
 
     const chooseAgain = (cart) => {
@@ -37,16 +43,16 @@ const Shop = () => {
                 {
                     products.map(product => <Product
                         key={product.id}
-                        product = {product}
-                        handleAddToCart = {handleAddToCart}
+                        product={product}
+                        handleAddToCart={handleAddToCart}
                     ></Product>)
                 }
             </div>
-            <div className="cart-container">    
+            <div className="cart-container">
                 <Cart
-                 choose1ForMe = {choose1ForMe}
-                 chooseAgain = {chooseAgain}
-                 cart={cart}
+                    choose1ForMe={choose1ForMe}
+                    chooseAgain={chooseAgain}
+                    cart={cart}
                 ></Cart>
             </div>
         </div>
