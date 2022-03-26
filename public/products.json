@@ -1,0 +1,123 @@
+[
+    {
+        "id": "1",
+        "name": "Amazon Essentials Men's Canvas Slip-on Loafer",
+        "price": 33,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://m.media-amazon.com/images/I/81WjXgpKX4L._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "2",
+        "name": "Steve Madden Men's Fenta Fashion Sneaker",
+        "price": 41.68,
+        "ratings": 4.3,
+        "ratingsCount":  3824,
+        "img": "https://m.media-amazon.com/images/I/81BGt1LwpXL._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "3",
+        "name": "Sperry Men's Striper II CVO Washable Sneaker",
+        "price": 60,
+        "ratings": 4.6,
+        "ratingsCount":  3419,
+        "img": "https://m.media-amazon.com/images/I/81IhpbbhUuL._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "4",
+        "name": "New Balance Men's 515 V3 Sneaker",
+        "price": 42.2,
+        "ratings": 4.6,
+        "ratingsCount":  19990,
+        "img": "https://m.media-amazon.com/images/I/61iCoaYlwvL._AC_UY500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "5",
+        "name": "Adidas Men's Grand Court Tennis Shoes",
+        "price": 65,
+        "ratings": 4.7,
+        "ratingsCount":  23337,
+        "img": "https://m.media-amazon.com/images/I/61FbqzPD8TL._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "6",
+        "name": "Adidas Men's Questar Flow Nxt Running Shoe",
+        "price": 45,
+        "ratings": 4.2,
+        "ratingsCount":  2403,
+        "img": "https://m.media-amazon.com/images/I/71chr+X38QL._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "7",
+        "name": "Skechers Men's Go Walk Max-athletic Air Mesh Slip",
+        "price": 39.95,
+        "ratings": 4.5,
+        "ratingsCount":  24664,
+        "img": "https://m.media-amazon.com/images/I/71lzsEIh+jL._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "8",
+        "name": "Skechers Men's Moreno Canvas Oxford Shoe",
+        "price": 45.99,
+        "ratings": 4.5,
+        "ratingsCount": 6672,
+        "img": "https://m.media-amazon.com/images/I/91CurXTesTL._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "9",
+        "name": "Adidas Men's Codechaos 21 Primeblue Spikeless Golf Shoes",
+        "price": 54.20,
+        "ratings": 4.7,
+        "ratingsCount": 180,
+        "img": "https://m.media-amazon.com/images/I/81lJ60tCw9S._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "10",
+        "name": "Adidas Men's Runfalcon 2.0 Running Shoe",
+        "price": 42,
+        "ratings": 4.6,
+        "ratingsCount": 1586,
+        "img": "https://m.media-amazon.com/images/I/71efu9jBa8L._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "11",
+        "name": "Adidas Men's Runfalcon 2.0 Running Shoe",
+        "price": 31.88,
+        "ratings": 4.5,
+        "ratingsCount": 48790,
+        "img": "https://m.media-amazon.com/images/I/81kmU+BpSQL._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      },
+    {
+        "id": "12",
+        "name": "Skechers Women's Performance, Gowalk Joy Terrific Slip",
+        "price": 35.99,
+        "ratings": 4.6,
+        "ratingsCount": 4053,
+        "img": "https://m.media-amazon.com/images/I/91PEK6J+t0L._AC_UX500_.jpg",
+        "shipping": 1,
+        "quantity": 0
+      }
+    
+    ]
