@@ -3,3 +3,15 @@
     top: 0;
     padding: 20px 10px;
 }
+
+.cart button{
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: #FFD814;
+}
+
+.cart button:hover{
+    background-color: #f1d339;
+}
